@@ -4,29 +4,29 @@ A modern employee management system built with Laravel 12 and Vite, featuring a 
 
 ## Features
 
-- 👥 **User Authentication**
+- **User Authentication**
   - Secure login system
   - Admin role management
   - Password reset functionality
 
-- 👔 **Employee Management**
+- **Employee Management**
   - Create, view, and delete employee records
   - Employee information includes name, email, position, and salary
   - Soft delete support for employee records
   - Automatic welcome email for new employees
 
-- 🏢 **Department Management**
+- **Department Management**
   - Pre-configured departments (HR, Finance, Engineering, Marketing, Sales)
   - Department-wise employee organization
   - Department slug-based routing
 
-- 📊 **Dashboard**
+- **Dashboard**
   - Dynamic data tables with server-side processing
   - Real-time status indicators
   - Salary formatting
   - Responsive design
 
-- 🔒 **API Security**
+- **API Security**
   - Token-based authentication using Laravel Sanctum
   - Protected admin routes
   - CSRF protection
