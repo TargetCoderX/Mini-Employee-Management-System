@@ -124,6 +124,10 @@ When making API requests, always include the following header:
 ```http
 Accept: application/json
 ```
+For Admin
+```http
+X-ROLE: admin
+```
 
 ## Development Commands
 
