@@ -118,6 +118,13 @@ A modern employee management system built with Laravel 12 and Vite, featuring a 
      - Email: soumya@example.com
      - Password: password123
 
+## API Usage
+
+When making API requests, always include the following header:
+```http
+Accept: application/json
+```
+
 ## Development Commands
 
 - Fresh migration with seeding:
