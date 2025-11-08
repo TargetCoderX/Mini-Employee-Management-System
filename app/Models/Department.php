@@ -20,4 +20,9 @@ class Department extends Model
             $department->slug = Str::slug($department->name);
         });
     }
+
+    public function employees()
+    {
+        return $this->hasMany(Employee::class);
+    }
 }

@@ -61,7 +61,7 @@ class DepartmentController extends Controller
                 return response()->json(['error' => 'per_page must be a positive integer.'], 400);
             }
 
-            $departments = Department::paginate(intval($perPage));
+            $departments = Department::with('employees')->paginate(intval($perPage));
             return response()->json($departments);
         } catch (Exception $e) {
             return response()->json(['error' => 'Failed to fetch departments.'], 500);
